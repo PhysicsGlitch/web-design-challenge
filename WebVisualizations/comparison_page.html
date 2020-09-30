@@ -19,7 +19,7 @@
 
 
   <body>
-    <h1>Web Visualization Challenge: Covid-19 Resource Hub</h1>
+    <h1>US Covid Data</h1>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -60,83 +60,67 @@
 
   <div class="container">
     <div class="jumbotron">
-      <h1 class="display-4">Covid Resources</h1>
+      <h1 class="display-4">Visualization Comparison Page</h1>
+      <p class="lead">Compare the Visualizations Below!</p>
       <hr class="my-4">
-      <p>The pages below give a list of visualization resources on covid which show its effect in American and across the globe. The following links show different aspects of covid-19 that you can explore to learn more.</p>
-      <p>The data looks at both the deaths, cases as well as impacts upon some polling numbers that may impact the 2020 US elections.</p>
+      <p>The visualization images from the previous pages are displayed here for your convenience to see all of the images and data compiled together!
+      </p>
     </div>
   </div>
 
-<div class="container">
-  <h3 class="text-center">Visualization Pages</h3>
-    <div class="row">
-        <div class="col-md-4">
-          <div class="thumbnail">
-            <img src="images/deaths_cases.png" alt="..." class="img-thumbnail">
-          </div>
-          <div class="caption">
-              <h3>US Covid Cases and Deaths</h3>
-              <p><a href="us_covid.html" class="btn btn-primary" role="button">See the Models</a></p>
+  <div class="container">
+      <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="embed-responsive embed-responsive-16by9">
+                <img alt="Card image cap" class="card-img-top embed-responsive-item" src="images/deaths_cases.png">
+              </div>
+              <div class="card-block">
+                <h4 class="card-title">US Covid Numbers</h4>
+                <p class="card-text">US Covid deaths and cases</p>
+              </div>
             </div>
-        </div>
-        <div class="col-md-4">
-            <div class="thumbnail">
-              <img src="images/covid.png" alt="..." class="img-thumbnail">
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="embed-responsive embed-responsive-16by9">
+                <img alt="Card image cap" class="card-img-top embed-responsive-item" src="images/covid.png">
+              </div>
+              <div class="card-block">
+                <h4 class="card-title">IL Covid Numbers</h4>
+                <p class="card-text">IL Covid deaths and cases</p>
+              </div>
             </div>
-          <div class="caption">
-              <h3>Illinois Cases and Deaths</h3>
-              <p><a href="il_covid.html" class="btn btn-primary" role="button">Learn More</a></p>
           </div>
-        </div>
-        <div class="col-md-4">
-          <div class="thumbnail">
-            <img src="images/congress_covid.png" alt="..." class="img-thumbnail">
-          </div>
-          <div class="caption">
-              <h3>Covid and Congress</h3>
-              <p><a href="congress_covid.html" class="btn btn-primary" role="button">Learn More</a></p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="thumbnail">
-            <img src="images/trump_approval_v_cases.png" alt="..." class="img-thumbnail">
-          </div>
-          <div class="caption">
-              <h3>Trump Approval & Covid</h3>
-              <p><a href="trump_covid.html" class="btn btn-primary" role="button">Learn More</a></p>
-          </div>
-          </div>
-          <div class="col-md-4">
-            <div class="thumbnail">
-              <img src="images/covid.png" alt="..." class="img-thumbnail">
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="embed-responsive embed-responsive-16by9">
+              <img alt="Card image cap" class="card-img-top embed-responsive-item" src="images/Appoval_v_Deaths.png">
             </div>
-          <div class="caption">
-              <h3>Visualization Comparisons</h3>
-              <p><a href="comparison_page.html" class="btn btn-primary" role="button">Learn More</a></p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="thumbnail">
-              <img src="images/data.jpg" alt="..." class="img-thumbnail">
-          </div>
-          <div class="caption">
-               <h3>Data Resources</h3>
-                <p><a href="covid_data.html" class="btn btn-primary" role="button">See the Models</a></p>
-           </div>
-        </div>
-        
-        <div class="col-md-4">
-                <div class="thumbnail">
-                  <img src="images/congress_covid.png" alt="..." class="img-thumbnail">
-                </div>
-                <div class="caption">
-                    <h3>External Resoures</h3>
-                    <p><a href="external.html-" class="btn btn-primary" role="button">Learn More</a></p>
-                <div>
+            <div class="card-block">
+              <h4 class="card-title">Trump-Covid Numbers</h4>
+              <p class="card-text">Trump's Approval compared to Covid Numbers</p>
             </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <div class="embed-responsive embed-responsive-16by9">
+              <img alt="Card image cap" class="card-img-top embed-responsive-item" src="images/congress_covid.png">
+            </div>
+            <div class="card-block">
+              <h4 class="card-title">Congress-Covid Numbers</h4>
+              <p class="card-text">Republican Congressional Approval Numbers compared to Covid Numbers</p>
+            </div>
+          </div>
         </div>
     </div>
-<div>
+  </div>
+           
+
+
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
